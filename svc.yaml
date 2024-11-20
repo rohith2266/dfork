@@ -5,8 +5,8 @@ metadata:
 spec:
   type: NodePort
   selector:
-    app.kubernetes.io/name: my-deployment
+    app: my-deployment
   ports:
     - port: 80
-      targetPort: 80
-      nodePort: 30008
+       targetPort: 80
+       nodePort: 30008
