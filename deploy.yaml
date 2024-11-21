@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: my-deployment
-        image: rohith221/proj2
+        image: rohith658/proj2b
         ports:
         - containerPort: 80
